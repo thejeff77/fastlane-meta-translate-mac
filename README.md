@@ -18,7 +18,9 @@ Put translate.sh in your fastlane folder, or add this repo as a submodule
 Install dependent brew packages:
 
 > cd fastlane-meta-translate-mac
+
 > chmod 777 ./translate.sh
+
 > ./translate.sh --setup
 
 or:
