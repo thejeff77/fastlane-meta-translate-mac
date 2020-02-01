@@ -30,7 +30,6 @@ case $key in
     ;;
 esac
 done
-set -- "${POSITIONAL[@]}" # restore positional parameters
 
 echo -e "\n Command Opts:\n"
 
@@ -38,12 +37,6 @@ echo "INIT  = ${INIT}"
 echo "SEARCH PATH     = ${SEARCHPATH}"
 echo "TRANSLATE FILE    = ${FILE}"
 echo "BASELANG         = ${BASELANG}"
-
-#echo "Number files in SEARCH PATH with EXTENSION:" $(ls -1 "${SEARCHPATH}"/*."${EXTENSION}" | wc -l)
-#if [[ -n $1 ]]; then
-#    echo "Last line of file specified as non-opt/last argument:"
-#    tail -1 "$1"
-#fi
 
 if [[ $INIT == *"YES"* ]]; then
   # Based on https://github.com/soimort/translate-shell setup instructions
