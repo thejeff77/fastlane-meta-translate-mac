@@ -6,8 +6,8 @@ Utilizes the translate cli https://github.com/soimort/translate-shell
 
 ## Pre-requisites
 
-- install brew for mac
-- setup fastlane folder with downloaded metadata. Requires folders for all languages you have in app store connect within the metadata directory. Ex: metadata/es
+- Install brew for mac
+- Setup fastlane folder with downloaded metadata. Requires folders for all languages you have in app store connect within the metadata directory. Ex: metadata/es
 
 ## Setup
 
